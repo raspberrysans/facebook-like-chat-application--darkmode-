@@ -14,4 +14,3 @@
 - can send photos
 <img src="https://im2.ezgif.com/tmp/ezgif-2-247be14e91f2.gif"/>
 
-### Feel free to use the code and customize it by changing the CSS file
