@@ -1,0 +1,245 @@
+/* Global*/
+
+* {
+  font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Chats Page */
+.ce-chat-unread-dot {
+  background-color: #d880a4 !important;
+}
+.ce-chats-container {
+  background-color: #27241d !important;
+  color: #f5f7fa !important;
+  border: none !important;
+  border-radius: 0 !important;
+
+}
+.ce-chat-list {
+  border-right: 0px !important;
+}
+.ce-chat-form-container {
+  padding-bottom: 20px !important;
+  background-color: #27241d !important;
+  color: #f5f7fa !important;
+  border-top: 1px solid #a39e93 !important;
+  border-left: 0px !important;
+}
+.ce-active-chat-card {
+  background-color: #504a40 !important;
+  border: 0px solid #a39e93 !important;
+  border-radius: 18px !important;
+  color: #d880a4 !important;
+}
+.ce-message-date-text {
+  visibility: visible !important;
+  color: rgb(163, 151, 151) !important;
+
+
+}
+.ce-message-date-text:after {
+  visibility: visible!important;
+  display: block !important;
+  color: rgb(194, 165, 194) !important;
+  font-size: 15px!important;
+  content: "raspberrychat: you have a new message!" !important;
+  line-height: initial !important;
+}
+.ce-their-messgae-sender {
+  color: white !important; 
+
+}
+
+.ce-my-message-bubble {
+  color: #f5f7fa !important;
+  background-color: #d880a4 !important;
+}
+.ce-their-message-bubble {
+  color: #f5f7fa !important;
+  background-color: #27241d !important;
+}
+.ce-their-message-sender {
+  color: #f5f7fa !important;
+}
+.ce-primary-button {
+  border-radius: 360px !important;
+  background-color: #d880a4 !important;
+  position: relative;
+  color: white !important;
+}
+
+.ce-chat-title {
+  background-color: #27241d !important;
+  border-top: 1px solid #a39e93 !important;
+  border-radius: 1px !important;  
+}
+.ce-chat-subtitle-text {
+  color: #b8b2a7 !important;
+}
+
+.ce-chat-title-container {
+  color: white !important;
+}
+.ce-chat-feed-container {
+  background-color: #423d33 !important;
+  border-radius: 2px !important;
+  color: #a39e93 !important;
+}
+
+.ce-message-form-container {
+  color: #a39e93 !important;
+  background-color: #0c0b0a !important;
+}
+.ce-textarea-input{
+  background-color: #dad7d0 !important;
+  color: #181715 !important;
+}
+.anticon {
+  color: white !important;
+}
+.ce-settings {
+  color: #e9e4da !important;
+  background-color: #27241d !important;
+  border-left: 0px !important;
+  border-top: 1px solid #d4cfc4 !important;
+}
+.ce-input {
+  border-radius: 18px !important;
+  border: 0px solid hsl(42, 15%, 13%) !important;
+}
+.ce-text-input {
+  border-radius: 18px !important;
+  color: #d880a4 !important;
+  background-color: #1b1b19 !important;
+  
+}
+.ce-section-title-container {
+  background-color: #504a40 !important;
+  border: 0px solid #a39e93 !important;
+  border-radius: 18px !important;
+  color: #d880a4 !important;
+}
+#ce-options-drop-down {
+  background-color: #504a40 !important;
+  border: 0px solid #a39e93 !important;
+  border-radius: 18px !important;
+  color: #d880a4 !important;
+}
+#ce-add-username-input{
+  background-color: #504a40 !important;
+  border: 0px solid #a39e93 !important;
+  border-radius: 18px !important;
+  color: #d6cacf !important;
+}
+
+.ce-autocomplete-options{
+  color: #504a40 !important;
+  background-color: #d880a4 !important;
+}
+.chats-page {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 0px;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 77px;
+  background-color: #27241d;
+}
+
+.logo-tab {
+  font-size: 32px;
+  font-weight: 700;
+  color: #d880a4;
+}
+
+.logout-tab {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 7px;
+  border: 4px solid #d880a4;
+  background-color: #1b1b1a;
+}
+.createdby {
+  color: #f5f7fa;;
+  font-size: 15px;
+  font-family: monospace;
+}
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+/* Login Page */
+
+#login-page {
+  background-image: linear-gradient(#27241d, #423d33);
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+#login-card {
+  padding: 15px;
+  padding-bottom: 300px;
+  max-width:600px;
+  margin:40px auto;
+  text-align: center;
+  background-color: #504a40;
+  border-radius: 22px;
+  color: #d880a4 !important;
+  font-size: 30px;
+}
+
+.login-button {
+  cursor: pointer;
+  color: white;
+  padding: 12px;
+  border-radius: 20px;
+  display: block;
+}
+
+.description {
+  font-family: monospace;
+  font-size: 18px;
+  text-align: left;
+  border: 10px solid;
+  padding: 10px;
+  border-radius: 18px;
+}
+
+.google {
+  background-color: #857f72;
+  color: white;
+}
+
+#loading-container {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(255, 255, 255, 0.22);
+}
+
+#loading-icon {
+  font-size: 66px ;
+  position: relative;
+  left: calc(50vw - 33px);
+  top: calc(50vh - 22px);
+}
