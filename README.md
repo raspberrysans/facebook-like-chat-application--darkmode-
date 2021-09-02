@@ -4,7 +4,7 @@
 ### Note: This is a web application so it is designed to work well only with a large screen, not on smartphones unfortunately. Please open with a laptop only!
 
 ### Sign-in using your Gmail account
-<img src="https://github.com/sanz1475/facebook-like-chat-application--darkmode-/blob/main/raspberrychat_app.gif" />
+<img src="https://github.com/sanz1475/facebook-like-chat-application--darkmode-/blob/main/raspberrychatgif.gif" />
 
 #### Functionality:
 - open a new chat
@@ -13,5 +13,4 @@
 - shows when someone is online
 - can see when someone is typing
 - can send photos
-<img src="https://im2.ezgif.com/tmp/ezgif-2-247be14e91f2.gif"/>
 
