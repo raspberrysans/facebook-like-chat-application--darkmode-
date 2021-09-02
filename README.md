@@ -14,3 +14,6 @@
 - can see when someone is typing
 - can send photos
 
+### Resources:
+  1. The following tutorial helped me form the logic for the app: https://www.youtube.com/watch?v=Bv9Js3QLOLY
+  2. https://chatengine.io/docs/customize_css
