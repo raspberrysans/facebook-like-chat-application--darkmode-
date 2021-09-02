@@ -3,7 +3,7 @@
 ##### Open in new tab!
 ### Note: This is a web application so it is designed to work well only with a large screen, not on smartphones unfortunately. Please open with a laptop only!
 
-### Sign-in using your Gmail account
+### Here is a preview of the weather app
 <img src="https://github.com/sanz1475/facebook-like-chat-application--darkmode-/blob/main/raspberrychatgif.gif" />
 
 #### Functionality:
